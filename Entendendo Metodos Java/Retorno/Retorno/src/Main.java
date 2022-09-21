@@ -16,5 +16,7 @@ public class Main {
         System.out.println("Área do Losango: " + areaLosango);
 
     }
+
+
 }
 
