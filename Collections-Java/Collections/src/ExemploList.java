@@ -5,8 +5,6 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-import javax.sound.midi.Soundbank;
-
 public class ExemploList {
     public static void main(String[] args) {
         // List<Double> notas = new ArrayList<>();
