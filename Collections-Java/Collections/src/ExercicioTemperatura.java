@@ -21,18 +21,12 @@ public class ExercicioTemperatura {
 
         double media = soma/temperaturas.size();
         System.out.println(media);
+        String[] meses = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"};
 
         for (int i = 0; i < temperaturas.size(); i++){
             if (temperaturas.get(i) >= media) {
-                if(i==0) System.out.println(i+1 + " - Janeiro :");
-                if(i==1) System.out.println(i+1 + " - Fevereiro :");
-                if(i==2) System.out.println(i+1 + " - Março :");
-                if(i==3) System.out.println(i+1 + " - Abril :");
-                if(i==4) System.out.println(i+1 + " - Maio :");
-                if(i==5) System.out.println(i+1 + " - Junho :");
-                System.out.println(temperaturas.get(i));
+                System.out.println(meses[i] + " = " + temperaturas.get(i));
             }
         }
     }
 }
-    
